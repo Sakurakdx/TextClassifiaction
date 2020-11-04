@@ -36,10 +36,8 @@ def participle(a):
 
 
 if __name__ == '__main__':
-    txt = "test.txt"
-    # attr_con(txt)
+    txt = "data/hotel.txt"
+    attr_con(txt)
     lines = Data_pre.read(txt)
-    for x in lines:
-        participle(x)
 
     # print(lines)

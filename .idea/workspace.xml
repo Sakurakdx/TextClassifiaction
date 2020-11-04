@@ -30,6 +30,50 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.tesy">
+    <configuration name="CNN" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Text_classifiaction" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/CNN.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="create_list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Text_classifiaction" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/create_list.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="data_pre" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Text_classifiaction" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -99,6 +143,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.tesy" />
+        <item itemvalue="Python.CNN" />
+        <item itemvalue="Python.create_list" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.data_pre" />
       </list>
@@ -119,7 +165,18 @@
       <workItem from="1604039237830" duration="16599000" />
       <workItem from="1604073627718" duration="6000" />
       <workItem from="1604073765688" duration="659000" />
-      <workItem from="1604109694042" duration="1265000" />
+      <workItem from="1604109694042" duration="5114000" />
+      <workItem from="1604210794042" duration="2152000" />
+      <workItem from="1604215050012" duration="354000" />
+      <workItem from="1604217877441" duration="7930000" />
+      <workItem from="1604237116170" duration="1908000" />
+      <workItem from="1604239057400" duration="691000" />
+      <workItem from="1604297933156" duration="56000" />
+      <workItem from="1604297997606" duration="7464000" />
+      <workItem from="1604316758231" duration="4464000" />
+      <workItem from="1604325913985" duration="4120000" />
+      <workItem from="1604379074969" duration="600000" />
+      <workItem from="1604387789099" duration="12842000" />
     </task>
     <servers />
   </component>
@@ -131,50 +188,65 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1089" y="613" key="Github.CreateGistDialog/0.0.2560.1400/-1920.369.1536.824@0.0.2560.1400" timestamp="1604109957109" />
-    <state width="2517" height="492" key="GridCell.Tab.0.bottom" timestamp="1604074640679">
+    <state width="2517" height="490" key="GridCell.Tab.0.bottom" timestamp="1604415044067">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="492" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.369.1536.824@0.0.2560.1400" timestamp="1604074640679" />
-    <state width="2517" height="492" key="GridCell.Tab.0.center" timestamp="1604074640679">
+    <state width="1493" height="272" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604394407967" />
+    <state width="2517" height="490" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.369.1536.824@0.0.2560.1400" timestamp="1604415044067" />
+    <state width="2517" height="490" key="GridCell.Tab.0.center" timestamp="1604415044067">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="492" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.369.1536.824@0.0.2560.1400" timestamp="1604074640679" />
-    <state width="2517" height="492" key="GridCell.Tab.0.left" timestamp="1604074640679">
+    <state width="1493" height="272" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604394407967" />
+    <state width="2517" height="490" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.369.1536.824@0.0.2560.1400" timestamp="1604415044067" />
+    <state width="2517" height="490" key="GridCell.Tab.0.left" timestamp="1604415044067">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="492" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.369.1536.824@0.0.2560.1400" timestamp="1604074640679" />
-    <state width="2517" height="492" key="GridCell.Tab.0.right" timestamp="1604074640679">
+    <state width="1493" height="272" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604394407967" />
+    <state width="2517" height="490" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.369.1536.824@0.0.2560.1400" timestamp="1604415044067" />
+    <state width="2517" height="490" key="GridCell.Tab.0.right" timestamp="1604415044067">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="492" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.369.1536.824@0.0.2560.1400" timestamp="1604074640679" />
-    <state width="2517" height="492" key="GridCell.Tab.1.bottom" timestamp="1604074640679">
+    <state width="1493" height="272" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604394407967" />
+    <state width="2517" height="490" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.369.1536.824@0.0.2560.1400" timestamp="1604415044067" />
+    <state width="2517" height="490" key="GridCell.Tab.1.bottom" timestamp="1604415044069">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="492" key="GridCell.Tab.1.bottom/0.0.2560.1400/-1920.369.1536.824@0.0.2560.1400" timestamp="1604074640679" />
-    <state width="2517" height="492" key="GridCell.Tab.1.center" timestamp="1604074640679">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604316741393" />
+    <state width="2517" height="490" key="GridCell.Tab.1.bottom/0.0.2560.1400/-1920.369.1536.824@0.0.2560.1400" timestamp="1604415044069" />
+    <state width="2517" height="490" key="GridCell.Tab.1.center" timestamp="1604415044067">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="492" key="GridCell.Tab.1.center/0.0.2560.1400/-1920.369.1536.824@0.0.2560.1400" timestamp="1604074640679" />
-    <state width="2517" height="492" key="GridCell.Tab.1.left" timestamp="1604074640679">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1604316741392" />
+    <state width="2517" height="490" key="GridCell.Tab.1.center/0.0.2560.1400/-1920.369.1536.824@0.0.2560.1400" timestamp="1604415044067" />
+    <state width="2517" height="490" key="GridCell.Tab.1.left" timestamp="1604415044067">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="492" key="GridCell.Tab.1.left/0.0.2560.1400/-1920.369.1536.824@0.0.2560.1400" timestamp="1604074640679" />
-    <state width="2517" height="492" key="GridCell.Tab.1.right" timestamp="1604074640679">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1604316741392" />
+    <state width="2517" height="490" key="GridCell.Tab.1.left/0.0.2560.1400/-1920.369.1536.824@0.0.2560.1400" timestamp="1604415044067" />
+    <state width="2517" height="490" key="GridCell.Tab.1.right" timestamp="1604415044068">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="492" key="GridCell.Tab.1.right/0.0.2560.1400/-1920.369.1536.824@0.0.2560.1400" timestamp="1604074640679" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1604316741392" />
+    <state width="2517" height="490" key="GridCell.Tab.1.right/0.0.2560.1400/-1920.369.1536.824@0.0.2560.1400" timestamp="1604415044068" />
     <state x="781" y="342" key="SettingsEditor" timestamp="1603872255683">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="781" y="342" key="SettingsEditor/0.0.2560.1400/-1920.369.1536.824@0.0.2560.1400" timestamp="1603872255683" />
-    <state x="960" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1604109701033">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="576" y="308" key="com.intellij.ide.util.TipDialog" timestamp="1604387791323">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="960" y="524" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/-1920.369.1536.824@0.0.2560.1400" timestamp="1604109701033" />
+    <state x="576" y="308" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1604387791323" />
+    <state x="960" y="524" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/-1920.369.1536.824@0.0.2560.1400" timestamp="1604379074707" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1604388726517">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1604388726517" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Text_classifiaction$main.coverage" NAME="main Coverage Results" MODIFIED="1604046026400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Text_classifiaction$main.coverage" NAME="main Coverage Results" MODIFIED="1604210972025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Text_classifiaction$data_pre.coverage" NAME="data_pre Coverage Results" MODIFIED="1603894495962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Text_classifiaction$tesy.coverage" NAME="tesy Coverage Results" MODIFIED="1604073772928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Text_classifiaction$create_list.coverage" NAME="create_list Coverage Results" MODIFIED="1604315385144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Text_classifiaction$tesy.coverage" NAME="tesy Coverage Results" MODIFIED="1604414788758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Text_classifiaction$CNN.coverage" NAME="CNN Coverage Results" MODIFIED="1604403438008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
   </component>
 </project>
