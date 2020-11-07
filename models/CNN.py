@@ -27,7 +27,7 @@ class TextCNN(nn.Module):
         )
 
         # fc
-        self.fc = nn.Linear(output_channel * 20 * 38, num_class)
+        self.fc = nn.Linear(output_channel * 19 * 98, num_class)
 
     def forward(self, X):
         """
