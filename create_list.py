@@ -1,4 +1,5 @@
 import jieba
+from support import read_data
 
 
 class create_list(object):
@@ -43,3 +44,21 @@ class create_list(object):
         for sen in a:
             length = len(sen)
             self.length.append(length)
+
+
+read_file = "pre_data/data.txt"
+vocab_file = "vocab.txt"
+x, y = read_data(read_file)
+data_list = create_list(x)
+data_list.cre_list()
+# sum_sen_length = sum(data_list.length)
+# avg = sum_sen_length / len(data_list.x)
+# print(avg)
+# print(sum_sen_length)
+# print(max(data_list.length))
+with open(vocab_file, "a", encoding="utf-8") as f:
+    for key, value in data_list.word2idx.items():
+        f.write(key)
+        f.write(" ")
+        f.write(str(value))
+        f.write("\n")
