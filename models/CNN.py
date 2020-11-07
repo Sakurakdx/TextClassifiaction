@@ -7,8 +7,6 @@ import torch.utils.data as Data
 import torch.nn.functional as F
 
 dtype = torch.FloatTensor
-# device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-torch.cuda.set_device(0)
 
 
 class TextCNN(nn.Module):
