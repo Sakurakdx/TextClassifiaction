@@ -1,7 +1,4 @@
 # coding:utf-8
-import numpy
-import pandas
-import jieba
 import re
 import emoji
 import string
@@ -131,3 +128,10 @@ class Data_pre(object):
                 f.write(line)
 
         print("Successfully write")
+
+
+def pre_data(read_file, write_file):
+    data = Data_pre()
+    data.read(read_file)
+    data.data_clean()
+    data.write(write_file)
