@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2772fc44-8687-47a3-9858-77f8f24b4f0e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/CNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/CNN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/performance.py" beforeDir="false" afterPath="$PROJECT_DIR$/performance.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +44,7 @@
       <recent name="C:\Users\sakurakdx\Desktop\TextClassifiaction" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.tesy">
+  <component name="RunManager" selected="Python.main">
     <configuration name="CNN" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Text_classifiaction" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -154,10 +157,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.tesy" />
         <item itemvalue="Python.CNN" />
         <item itemvalue="Python.create_list" />
-        <item itemvalue="Python.main" />
         <item itemvalue="Python.data_pre" />
       </list>
     </recent_temporary>
@@ -189,7 +192,8 @@
       <workItem from="1604325913985" duration="4120000" />
       <workItem from="1604379074969" duration="600000" />
       <workItem from="1604387789099" duration="12842000" />
-      <workItem from="1604762998043" duration="1240000" />
+      <workItem from="1604762998043" duration="1836000" />
+      <workItem from="1604818397334" duration="146000" />
     </task>
     <servers />
   </component>
@@ -201,26 +205,26 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1089" y="613" key="Github.CreateGistDialog/0.0.2560.1400/-1920.369.1536.824@0.0.2560.1400" timestamp="1604109957109" />
-    <state width="2517" height="490" key="GridCell.Tab.0.bottom" timestamp="1604415044067">
+    <state width="2517" height="509" key="GridCell.Tab.0.bottom" timestamp="1604818559019">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1493" height="272" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604394407967" />
-    <state width="2517" height="490" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.369.1536.824@0.0.2560.1400" timestamp="1604415044067" />
-    <state width="2517" height="490" key="GridCell.Tab.0.center" timestamp="1604415044067">
+    <state width="2517" height="509" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.369.1536.824@0.0.2560.1400" timestamp="1604818559019" />
+    <state width="2517" height="509" key="GridCell.Tab.0.center" timestamp="1604818559018">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1493" height="272" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604394407967" />
-    <state width="2517" height="490" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.369.1536.824@0.0.2560.1400" timestamp="1604415044067" />
-    <state width="2517" height="490" key="GridCell.Tab.0.left" timestamp="1604415044067">
+    <state width="2517" height="509" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.369.1536.824@0.0.2560.1400" timestamp="1604818559018" />
+    <state width="2517" height="509" key="GridCell.Tab.0.left" timestamp="1604818559018">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1493" height="272" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604394407967" />
-    <state width="2517" height="490" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.369.1536.824@0.0.2560.1400" timestamp="1604415044067" />
-    <state width="2517" height="490" key="GridCell.Tab.0.right" timestamp="1604415044067">
+    <state width="2517" height="509" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.369.1536.824@0.0.2560.1400" timestamp="1604818559018" />
+    <state width="2517" height="509" key="GridCell.Tab.0.right" timestamp="1604818559018">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1493" height="272" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604394407967" />
-    <state width="2517" height="490" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.369.1536.824@0.0.2560.1400" timestamp="1604415044067" />
+    <state width="2517" height="509" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.369.1536.824@0.0.2560.1400" timestamp="1604818559018" />
     <state width="2517" height="490" key="GridCell.Tab.1.bottom" timestamp="1604415044069">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -245,11 +249,11 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="781" y="342" key="SettingsEditor/0.0.2560.1400/-1920.369.1536.824@0.0.2560.1400" timestamp="1603872255683" />
-    <state x="576" y="308" key="com.intellij.ide.util.TipDialog" timestamp="1604387791323">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="960" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1604818409489">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="576" y="308" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1604387791323" />
-    <state x="960" y="524" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/-1920.369.1536.824@0.0.2560.1400" timestamp="1604379074707" />
+    <state x="960" y="524" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/-1920.369.1536.824@0.0.2560.1400" timestamp="1604818409489" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1604388726517">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -261,5 +265,6 @@
     <SUITE FILE_PATH="coverage/Text_classifiaction$create_list.coverage" NAME="create_list Coverage Results" MODIFIED="1604315385144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Text_classifiaction$tesy.coverage" NAME="tesy Coverage Results" MODIFIED="1604414788758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Text_classifiaction$CNN.coverage" NAME="CNN Coverage Results" MODIFIED="1604403438008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
+    <SUITE FILE_PATH="coverage/TextClassifiaction$main.coverage" NAME="main Coverage Results" MODIFIED="1604818559009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
