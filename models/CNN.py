@@ -11,7 +11,7 @@ dtype = torch.FloatTensor
 
 class TextCNN(nn.Module):
     def __init__(self, vocab_size, embedding_size, num_class):
-        super(TextCNN, self).__init__()  # 执行父类的构造函数，使得我们能够调用父类的属性。
+        super(TextCNN, self).__init__()  # 执行父类的构造函数，使得能够调用父类的属性。
         self.W = nn.Embedding(vocab_size + 1, embedding_size)
 
         output_channel = 3
