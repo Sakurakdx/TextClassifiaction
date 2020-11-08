@@ -18,7 +18,7 @@ vocab_file = "vocab.txt"
 word2idx = support.read_vocab(vocab_file)
 vocab = list(set(word2idx.keys()))  # 词表 [词1， 词2， ...... ， 词n] 词之间互斥
 
-inputs, label = read_data("pre_data/dev.txt")
+inputs, label = read_data("pre_data/train.txt")
 sen_list = support.participle(inputs)  # [["词11", "词12", ...], ["词21", "词22", ...], ..., ["词n1", "词n2", ...]]
 sen_length = 41  # 句子平均长度 max为211
 print("-" * 40)
@@ -65,8 +65,8 @@ def main():
     model = TextCNN(vocab_size, embedding_size, num_class).to(device)
 
     criterion = nn.CrossEntropyLoss().to(device)
-    optimizer = optim.Adam(model.parameters(), lr=0.001)
-    # train(model, criterion, optimizer)
+    optimizer = optim.Adam(model.parameters(), lr=0.0001)
+    train(model, criterion, optimizer)
 
     input_batch, target_batch = make_data(sen_length, sen_list, word2idx, label)
     model_name = "mdl/10_model.mdl"
